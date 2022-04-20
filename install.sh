@@ -16,7 +16,8 @@ fi
 
 # Sourcing env
 source source.sh
-# Install Dep
 pushd scripts
+# Install Dep
   . install_dep.sh
+  . install_package.sh
 popd
